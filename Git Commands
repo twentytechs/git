@@ -1,0 +1,21 @@
+git config --global user.email "yourgithubemail"
+git config --global user.name "Your Github username"
+------------------------------------------------
+
+git init
+git status
+git add <file_name>
+git add .
+git commit -m "...."
+git remote add origin https://github.com/devops44training/git-demo.git
+git push -u origin master
+
+-----------
+Branching & Merging
+
+git branch <branch name>
+git checkout <branch name>
+git merge <branch name>
+git branch -d <branch name> ---- delete from local
+git push origin --delete <branch name> -- delete from remote
+
